@@ -1,0 +1,234 @@
+nav {
+    background-color: white;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+nav a {
+    color: #000;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#hero {
+    font-family: "Geomanist";
+}
+
+#conversion {
+    height: 480px;
+}
+
+#conversion h1 {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.space-above {
+    display: block;
+    margin-top: 50px;
+}
+
+.space-below {
+    display: block;
+    margin-bottom: 50px;
+}
+
+#steps {
+    background-color: #f8f8f8
+}
+
+.btn-rounded {
+    border-radius: 25px;
+    padding-bottom: 0px;
+}
+
+h3 {
+    color: #f16334;
+}
+
+h2 {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.orange {
+    display: inline;
+    color: #f16334
+}
+
+#consultation button {
+    background-color: #f16334;
+    color: #fff;
+}
+
+.modal-dialog {
+    max-width: 750px;
+}
+
+.modal-body{
+    background-color: rgb(248, 248, 248);    
+    padding: 50px 0px;
+}
+
+.modal-body .container:first-child {
+    width: initial;
+    margin: initial;
+}
+
+.modal-body .container {
+    width: 80%;
+    margin: 5% 10% 5% 10%;
+}
+
+.modal-header {
+    display: none;
+}
+
+.questionSteps {
+    margin-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.questionSteps label {
+    border: 1px solid;
+    background-color: #fff;
+    border-color: #eaeaea;
+    z-index: 2;
+}
+
+.questionSteps label.active {
+    background-color: #f16334;
+    color: #fff;
+}
+
+.questionSteps:after {
+    content: '';
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    background: #eaeff1;
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    left: 0;
+    height: 1px;
+}
+
+hr {
+    border-width: 1px;
+}
+
+
+label.btn:focus, label.btn.focus {
+    box-shadow: none;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.title p {
+    display: inline-block;
+}
+
+.title .orange {
+    font-weight: bold;
+}
+
+.title:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #f16334;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+}
+
+.myInput {
+    padding: 25px 23px 25px 23px;
+    color: #f16334;
+    border: solid #f3f4f5 1px;    
+}
+
+.myInput:focus, myInput.focus {
+    box-shadow: none;
+    border: solid #f3f4f5 1px;
+    color: #f16334;
+}
+
+.myBtn {
+    background-color: #f16334;
+    color: #fff;
+    padding: 25px 55px;
+    font-size: 20px;
+    border-width: 2px;
+    border-color: #f16334;
+    border-radius: 2.5em;
+    font-weight: bold;
+    width: 50%;
+}
+
+.myBtn:hover {
+    background-color: #fff;
+    color: #f16334;
+    cursor: pointer;
+}
+
+.myBtn:focus, myBtn.focus {
+    box-shadow: none;
+}
+
+.form-group label {
+    display: block;
+    padding: 25px;
+    background-color: #fff;
+    border: solid #f3f4f5 1px;
+    cursor: pointer;
+}
+
+.myRadio {
+    width: auto;
+    display: inline-block;
+}
+
+label input[type="radio"] {
+    visibility: hidden;
+}
+
+.radio-checked {
+    border: solid #f16334 1px!important;
+    color: #f16334;
+}
+
+select {
+    height: 70px;
+    width: 100%;
+    background-color: #fff;
+    border: solid #f3f4f5 1px;
+    color: #f16334;
+}
+
+select:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.newline {
+    display: block;
+    margin-bottom: 16px;
+}

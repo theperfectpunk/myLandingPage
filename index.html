@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Get More Traffic!!!</title>
+
+        <script src="./js/jquery-3.2.1.min.js"></script>
+        <script src="./js/popper.min.js"></script>        
+        <script src="./js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+        <script src="./js/script.js"></script>
+
+        <link rel="stylesheet" href="./css/fonts.css">
+        <link rel="stylesheet" href="./css/style.css">
+
+        <!--<link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">-->
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- Modal -->
+        <div class="modal fade" id="questionModal" tabindex="-1" role="dialog" aria-labelledby="questionModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="container">
+                                <div class="btn-group questionSteps d-flex justify-content-between" data-toggle="buttons">
+                                    <label class="btn rounded-circle active">
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked>1
+                                    </label>
+                                    <label class="btn rounded-circle">
+                                        <input type="radio" name="options" id="option2" autocomplete="off">2
+                                    </label>
+                                    <label class="btn rounded-circle">
+                                        <input type="radio" name="options" id="option3" autocomplete="off">3
+                                    </label>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="container">
+                                <div class="title">
+                                    <p>Let's get <div class="orange"> started...</div></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="url" class="form-control myInput" id="webURL" placeholder="Website URL" >
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="title">
+                                    <p>What are your <div class="orange"> overall goals?</div></p>
+                                </div>
+                                <p>I need help with:</p>
+                                <div class="form-group">
+                                    <label><input type="radio" class="form-control myRadio" name="goals" value="Getting more traffic">Getting more traffic</label>
+                                    <label><input type="radio" class="form-control myRadio" name="goals" value="Converting visitors into sales">Converting visitors into sales</label>
+                                    <label><input type="radio" class="form-control myRadio" name="goals" value="Both">Both</label>
+                                </div>
+                                <p>What is your current monthly marketing budget?</p>
+                                <div class="form-group">
+                                    <select name="budget" id="budget">
+                                            <option value="" disabled="disabled">Select your budget</option>
+                                            <option value="$0 to 5000">$0 to 5000</option>
+                                            <option value="$5000 to $10,000">$5000 to $10,000</option>
+                                            <option value="$10,000 to $25,000">$10,000 to $25,000</option>
+                                            <option value="$25,000 to $50,000">$25,000 to $50,000</option>
+                                            <option value="$50,000 to $100,000">$50,000 to $100,000</option>
+                                            <option value="Above $100,000">Above $100,000</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="title">
+                                    <p>How do we get in </p><span class="newline"><div class="orange"> touch with you?</div></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="url" class="form-control myInput" id="webURL" placeholder="Name" >
+                                </div>
+                                <div class="form-group">
+                                    <input type="url" class="form-control myInput" id="webURL" placeholder="Work Email" >
+                                </div>
+                                <div class="form-group">
+                                    <input type="url" class="form-control myInput" id="webURL" placeholder="Phone number" >
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                    <button type="button" class="btn myBtn">CONTINUE</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="menu">
+            <div class="container">
+                <nav class="navbar fixed-top navbar-light bg-faded justify-content-end mr-5">
+                    <a class="navbar-brand" href="#conversion">About</a>
+                    <a class="navbar-brand" href="#consultation">Consulting</a>
+                    <a class="navbar-brand" href="javascript:openModal()">Contact</a>
+                </nav>
+            </div>
+        </section>
+        <section id="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img class="img-fluid" src="./img/man.png" height="720px"/>
+                    </div>
+                    <div class="col-md-7 d-flex align-items-center">
+                        <div>
+                            <h1>Do You Want <div class="orange">More Traffic?</div></h1>
+                            <p>
+                                Well, of course you do...<br>
+                                who would ever say they have enough traffic?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="conversion">
+            <div class="container text-center">
+                <h1>Double Conversions in <div class="orange">30 Days!</div></h1>
+                <h6>Yes, we'll help you achieve your marketing & business goals.</h6>
+            </div>
+        </section>
+        <section id="stats">
+            <div class="container text-center">
+                <h2>Don't Take Our Word For It</h1>
+                <h6>Just take a look at the screenshot below...</h6>
+                <div class="btn-group space-above" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                        <input type="radio" name="options" id="option1" autocomplete="off" checked>Before
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2" autocomplete="off"> After
+                    </label>
+                </div>
+                <img class="space-above space-below img-fluid rounded mx-auto d-block" src="./img/stats.png" />
+            </div>
+        </section>
+        <section id="steps">
+            <div class="container text-center">
+                <h2 class="space-below">Do This Now</h1>
+                <h3 class="space-above">Step 1</h1>
+                <h6><div class="orange">Start by Clicking here</div></h3>
+                <h6>You'll see a set of questions you'll need to answer about your business.</h3>
+                <h3 class="space-above">Step 2</h2>
+                <h6>Mohit (from our office) will contact you in 24 business hours, to gether more information.</h3>
+            </div>
+        </section>
+        <section id="consultation">
+            <div class="container text-center">
+                <h6>At that point if you see the value in working together, great.</h6>
+                <h6>We'll talk and see if we are able to take you on as a client.</h6>
+                <h6 class="space-above">Ultimately this is for people who take action and know a good opportunity when they see one.</h6>
+                <h6 class="space-above">If that's you, today is the day to step up and take your business to the next level.</h6>
+                <p class="space-above">Click the button below to submit your application.<br />
+                Our team will be in touch ASAP to schedule a time to chat.</p>
+                <button type="button" class="btn btn-rounded"><h6>Reserve Your Confidential Consultation With Us</h6></button>
+            </div>
+        </section>
+    </body>
+</html>
