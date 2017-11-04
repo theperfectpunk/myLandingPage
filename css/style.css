@@ -129,6 +129,12 @@ hr {
     border-width: 1px;
 }
 
+form {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
 
 label.btn:focus, label.btn.focus {
     box-shadow: none;
@@ -138,6 +144,7 @@ label.btn:focus, label.btn.focus {
     text-align: center;
     font-size: 36px;
     font-weight: 300;
+    margin-bottom: 25px;
 }
 
 .title p {
@@ -221,6 +228,7 @@ select {
     background-color: #fff;
     border: solid #f3f4f5 1px;
     color: #f16334;
+    padding-left: 25px;
 }
 
 select:focus {
@@ -230,5 +238,13 @@ select:focus {
 
 .newline {
     display: block;
-    margin-bottom: 16px;
+    padding-bottom: 16px;
+}
+
+.hideClass {
+    display: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }

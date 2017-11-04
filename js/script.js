@@ -38,7 +38,11 @@ $(document).ready(function() {
 });
 
 function openModal() {
+
+    //show the modal
     $('#questionModal').modal('show');
+
+    //radio button checked listener
     var prev = null;
     $('.myRadio').change(function () {
         $(this).closest('label').addClass('radio-checked');
@@ -46,5 +50,15 @@ function openModal() {
             prev.removeClass('radio-checked');
         }
         prev = $(this).closest('label');
-    })
+    });
+    var step = 0;
+    $('.myBtn').click(function () {
+        $('form').children('div#step:eq('+step+')').first().addClass('hideClass');
+        if(step<=1) {
+            step++;
+            console.log(step);
+        } else
+            $('.myBtn').text('SUBMIT');
+        $('form').children('div#step:eq('+step+')').first().removeClass('hideClass');
+    });
 }
